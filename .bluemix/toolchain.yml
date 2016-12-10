@@ -170,14 +170,14 @@ github-repo-swift-integration-tests:
     has_issues: true
   hidden: [form, description]
 
-github-repo-swift-clark:
+github-repo-swift-cmark:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "swift-clark"
-    repo_url: "https://github.com/apple/swift-clark.git"
+    repo_name: "swift-cmark"
+    repo_url: "https://github.com/apple/swift-cmark.git"
     type: link
     has_issues: true
   hidden: [form, description]
