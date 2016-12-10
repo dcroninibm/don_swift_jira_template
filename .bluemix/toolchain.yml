@@ -146,14 +146,14 @@ github-repo-swift-corelibs-libdispatch:
     has_issues: true
   hidden: [form, description]
 
-github-repo-swift-code-playground-support:
+github-repo-swift-xcode-playground-support:
   service_id: githubpublic
   parameters:
 #    repo_name: "{{github.parameters.open-source-repo_name}}"
 #    repo_url: "{{github.parameters.open-source-repo_URL}}"
 #    type: new | clone | link | fork
-    repo_name: "swift-code-playground-support"
-    repo_url: "https://github.com/apple/swift-code-playground-support.git"
+    repo_name: "swift-xcode-playground-support"
+    repo_url: "https://github.com/apple/swift-xcode-playground-support.git"
     type: link
     has_issues: true
   hidden: [form, description]
